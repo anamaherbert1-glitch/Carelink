@@ -125,7 +125,7 @@
                     <input v-model="item.frequency" placeholder="Fréquence / posologie">
                     <input v-model.number="item.duration_days" type="number" min="1" placeholder="Durée (jours)">
                     <input v-model="item.instructions" placeholder="Instructions">
-                    <button class="danger" type="button" @click="removePrescriptionItem(f.id,index)">Supprimer</button>
+                    <button class="danger" type="button" @click="removePrescriptionItem(f.id, Number(index))">Supprimer</button>
                   </div>
                   <button class="secondary" type="button" @click="addPrescriptionItem(f.id)">+ Ajouter un médicament</button>
                   <textarea v-model="doctorDrafts[f.id].prescription_instructions" placeholder="Conseils généraux de l’ordonnance"></textarea>
