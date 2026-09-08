@@ -1,0 +1,5 @@
+{
+  "buildCommand": "npm run build --workspace=apps/patient",
+  "outputDirectory": "apps/patient/dist",
+  "installCommand": "npm ci"
+}
