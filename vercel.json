@@ -1,5 +1,5 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "apps/patient/dist",
-  "installCommand": "npm install"
+  "installCommand": "npm install --no-package-lock"
 }
