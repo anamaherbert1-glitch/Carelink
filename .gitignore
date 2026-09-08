@@ -17,25 +17,14 @@ out/
 .branches/
 .temp/
 supabase/.temp/
-.supabase/
 
 # Environment Variables & Secrets (CRITICAL: Never commit secrets)
 .env
-.env.*
-!.env.example
-!.env.*.example
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 *.pem
-*.key
-*.crt
-*.cer
-*.p12
-*.pfx
-credentials.json
-service-account*.json
-secrets.json
-
-# Vercel
-.vercel/
 
 # IDEs & System
 .vscode/*
